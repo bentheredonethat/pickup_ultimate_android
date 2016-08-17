@@ -4,7 +4,7 @@ var fs = require("fs");
 
 app.get('/listGames', function (req, res) {
    fs.readFile( __dirname + "/" + "games.json", 'utf8', function (err, data) {
-       console.log( data );
+       console.log( "respond to listGames request" );
        res.end( data );
    });
 })
@@ -23,7 +23,7 @@ app.get('/:id', function (req, res) {
 		}
 
        // var game = games[req.params.id];
-       console.log( "game: %j", game );
+       console.log( "respond to /:id request with id: " +req.params.id );
        res.end( JSON.stringify(game));
    });
 })
