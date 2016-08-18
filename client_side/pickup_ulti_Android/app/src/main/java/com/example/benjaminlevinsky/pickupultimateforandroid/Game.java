@@ -1,14 +1,13 @@
 package com.example.benjaminlevinsky.pickupultimateforandroid;
 
-import java.util.HashMap;
-import java.util.Map;
-import javax.annotation.Generated;
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+import com.google.maps.android.clustering.ClusterItem;
+
+import javax.annotation.Generated;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Generated("org.jsonschema2pojo")
@@ -36,65 +35,88 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "last_updated",
         "html_description"
 })
-public class Game {
+public class Game implements ClusterItem{
 
     // auto-generated at http://www.jsonschema2pojo.org/
 
+    @Override
+    public LatLng getPosition() {
+        return new LatLng(lat, lng);
+    }
 
-    @JsonProperty("id")
-    private Integer id;
-    @JsonProperty("alias")
+    @SerializedName("id")
+    @Expose
+    private long id;
+    @SerializedName("alias")
+    @Expose
     private String alias;
-    @JsonProperty("lat")
-    private Double lat;
-    @JsonProperty("lng")
-    private Double lng;
-    @JsonProperty("name")
+    @SerializedName("lat")
+    @Expose
+    private double lat;
+    @SerializedName("lng")
+    @Expose
+    private double lng;
+    @SerializedName("name")
+    @Expose
     private String name;
-    @JsonProperty("contact_name")
+    @SerializedName("contact_name")
+    @Expose
     private String contactName;
-    @JsonProperty("contact_email")
+    @SerializedName("contact_email")
+    @Expose
     private String contactEmail;
-    @JsonProperty("contact_phone")
+    @SerializedName("contact_phone")
+    @Expose
     private String contactPhone;
-    @JsonProperty("sunday_time")
+    @SerializedName("sunday_time")
+    @Expose
     private String sundayTime;
-    @JsonProperty("monday_time")
+    @SerializedName("monday_time")
+    @Expose
     private String mondayTime;
-    @JsonProperty("tuesday_time")
+    @SerializedName("tuesday_time")
+    @Expose
     private String tuesdayTime;
-    @JsonProperty("wednesday_time")
+    @SerializedName("wednesday_time")
+    @Expose
     private String wednesdayTime;
-    @JsonProperty("thursday_time")
+    @SerializedName("thursday_time")
+    @Expose
     private String thursdayTime;
-    @JsonProperty("friday_time")
+    @SerializedName("friday_time")
+    @Expose
     private String fridayTime;
-    @JsonProperty("saturday_time")
+    @SerializedName("saturday_time")
+    @Expose
     private String saturdayTime;
-    @JsonProperty("fields")
+    @SerializedName("fields")
+    @Expose
     private String fields;
-    @JsonProperty("website")
+    @SerializedName("website")
+    @Expose
     private String website;
-    @JsonProperty("mailing_list")
+    @SerializedName("mailing_list")
+    @Expose
     private String mailingList;
-    @JsonProperty("cost")
+    @SerializedName("cost")
+    @Expose
     private String cost;
-    @JsonProperty("description")
+    @SerializedName("description")
+    @Expose
     private String description;
-    @JsonProperty("last_updated")
-    private Integer lastUpdated;
-    @JsonProperty("html_description")
+    @SerializedName("last_updated")
+    @Expose
+    private long lastUpdated;
+    @SerializedName("html_description")
+    @Expose
     private String htmlDescription;
-    @JsonIgnore
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     /**
      *
      * @return
      * The id
      */
-    @JsonProperty("id")
-    public Integer getId() {
+    public long getId() {
         return id;
     }
 
@@ -103,8 +125,7 @@ public class Game {
      * @param id
      * The id
      */
-    @JsonProperty("id")
-    public void setId(Integer id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -113,7 +134,6 @@ public class Game {
      * @return
      * The alias
      */
-    @JsonProperty("alias")
     public String getAlias() {
         return alias;
     }
@@ -123,7 +143,6 @@ public class Game {
      * @param alias
      * The alias
      */
-    @JsonProperty("alias")
     public void setAlias(String alias) {
         this.alias = alias;
     }
@@ -133,8 +152,7 @@ public class Game {
      * @return
      * The lat
      */
-    @JsonProperty("lat")
-    public Double getLat() {
+    public double getLat() {
         return lat;
     }
 
@@ -143,8 +161,7 @@ public class Game {
      * @param lat
      * The lat
      */
-    @JsonProperty("lat")
-    public void setLat(Double lat) {
+    public void setLat(double lat) {
         this.lat = lat;
     }
 
@@ -153,8 +170,7 @@ public class Game {
      * @return
      * The lng
      */
-    @JsonProperty("lng")
-    public Double getLng() {
+    public double getLng() {
         return lng;
     }
 
@@ -163,8 +179,7 @@ public class Game {
      * @param lng
      * The lng
      */
-    @JsonProperty("lng")
-    public void setLng(Double lng) {
+    public void setLng(double lng) {
         this.lng = lng;
     }
 
@@ -173,7 +188,6 @@ public class Game {
      * @return
      * The name
      */
-    @JsonProperty("name")
     public String getName() {
         return name;
     }
@@ -183,7 +197,6 @@ public class Game {
      * @param name
      * The name
      */
-    @JsonProperty("name")
     public void setName(String name) {
         this.name = name;
     }
@@ -193,7 +206,6 @@ public class Game {
      * @return
      * The contactName
      */
-    @JsonProperty("contact_name")
     public String getContactName() {
         return contactName;
     }
@@ -203,7 +215,6 @@ public class Game {
      * @param contactName
      * The contact_name
      */
-    @JsonProperty("contact_name")
     public void setContactName(String contactName) {
         this.contactName = contactName;
     }
@@ -213,7 +224,6 @@ public class Game {
      * @return
      * The contactEmail
      */
-    @JsonProperty("contact_email")
     public String getContactEmail() {
         return contactEmail;
     }
@@ -223,7 +233,6 @@ public class Game {
      * @param contactEmail
      * The contact_email
      */
-    @JsonProperty("contact_email")
     public void setContactEmail(String contactEmail) {
         this.contactEmail = contactEmail;
     }
@@ -233,7 +242,6 @@ public class Game {
      * @return
      * The contactPhone
      */
-    @JsonProperty("contact_phone")
     public String getContactPhone() {
         return contactPhone;
     }
@@ -243,7 +251,6 @@ public class Game {
      * @param contactPhone
      * The contact_phone
      */
-    @JsonProperty("contact_phone")
     public void setContactPhone(String contactPhone) {
         this.contactPhone = contactPhone;
     }
@@ -253,7 +260,6 @@ public class Game {
      * @return
      * The sundayTime
      */
-    @JsonProperty("sunday_time")
     public String getSundayTime() {
         return sundayTime;
     }
@@ -263,7 +269,6 @@ public class Game {
      * @param sundayTime
      * The sunday_time
      */
-    @JsonProperty("sunday_time")
     public void setSundayTime(String sundayTime) {
         this.sundayTime = sundayTime;
     }
@@ -273,7 +278,6 @@ public class Game {
      * @return
      * The mondayTime
      */
-    @JsonProperty("monday_time")
     public String getMondayTime() {
         return mondayTime;
     }
@@ -283,7 +287,6 @@ public class Game {
      * @param mondayTime
      * The monday_time
      */
-    @JsonProperty("monday_time")
     public void setMondayTime(String mondayTime) {
         this.mondayTime = mondayTime;
     }
@@ -293,7 +296,6 @@ public class Game {
      * @return
      * The tuesdayTime
      */
-    @JsonProperty("tuesday_time")
     public String getTuesdayTime() {
         return tuesdayTime;
     }
@@ -303,7 +305,6 @@ public class Game {
      * @param tuesdayTime
      * The tuesday_time
      */
-    @JsonProperty("tuesday_time")
     public void setTuesdayTime(String tuesdayTime) {
         this.tuesdayTime = tuesdayTime;
     }
@@ -313,7 +314,6 @@ public class Game {
      * @return
      * The wednesdayTime
      */
-    @JsonProperty("wednesday_time")
     public String getWednesdayTime() {
         return wednesdayTime;
     }
@@ -323,7 +323,6 @@ public class Game {
      * @param wednesdayTime
      * The wednesday_time
      */
-    @JsonProperty("wednesday_time")
     public void setWednesdayTime(String wednesdayTime) {
         this.wednesdayTime = wednesdayTime;
     }
@@ -333,7 +332,6 @@ public class Game {
      * @return
      * The thursdayTime
      */
-    @JsonProperty("thursday_time")
     public String getThursdayTime() {
         return thursdayTime;
     }
@@ -343,7 +341,6 @@ public class Game {
      * @param thursdayTime
      * The thursday_time
      */
-    @JsonProperty("thursday_time")
     public void setThursdayTime(String thursdayTime) {
         this.thursdayTime = thursdayTime;
     }
@@ -353,7 +350,6 @@ public class Game {
      * @return
      * The fridayTime
      */
-    @JsonProperty("friday_time")
     public String getFridayTime() {
         return fridayTime;
     }
@@ -363,7 +359,6 @@ public class Game {
      * @param fridayTime
      * The friday_time
      */
-    @JsonProperty("friday_time")
     public void setFridayTime(String fridayTime) {
         this.fridayTime = fridayTime;
     }
@@ -373,7 +368,6 @@ public class Game {
      * @return
      * The saturdayTime
      */
-    @JsonProperty("saturday_time")
     public String getSaturdayTime() {
         return saturdayTime;
     }
@@ -383,7 +377,6 @@ public class Game {
      * @param saturdayTime
      * The saturday_time
      */
-    @JsonProperty("saturday_time")
     public void setSaturdayTime(String saturdayTime) {
         this.saturdayTime = saturdayTime;
     }
@@ -393,7 +386,6 @@ public class Game {
      * @return
      * The fields
      */
-    @JsonProperty("fields")
     public String getFields() {
         return fields;
     }
@@ -403,7 +395,6 @@ public class Game {
      * @param fields
      * The fields
      */
-    @JsonProperty("fields")
     public void setFields(String fields) {
         this.fields = fields;
     }
@@ -413,7 +404,6 @@ public class Game {
      * @return
      * The website
      */
-    @JsonProperty("website")
     public String getWebsite() {
         return website;
     }
@@ -423,7 +413,6 @@ public class Game {
      * @param website
      * The website
      */
-    @JsonProperty("website")
     public void setWebsite(String website) {
         this.website = website;
     }
@@ -433,7 +422,6 @@ public class Game {
      * @return
      * The mailingList
      */
-    @JsonProperty("mailing_list")
     public String getMailingList() {
         return mailingList;
     }
@@ -443,7 +431,6 @@ public class Game {
      * @param mailingList
      * The mailing_list
      */
-    @JsonProperty("mailing_list")
     public void setMailingList(String mailingList) {
         this.mailingList = mailingList;
     }
@@ -453,7 +440,6 @@ public class Game {
      * @return
      * The cost
      */
-    @JsonProperty("cost")
     public String getCost() {
         return cost;
     }
@@ -463,7 +449,6 @@ public class Game {
      * @param cost
      * The cost
      */
-    @JsonProperty("cost")
     public void setCost(String cost) {
         this.cost = cost;
     }
@@ -473,7 +458,6 @@ public class Game {
      * @return
      * The description
      */
-    @JsonProperty("description")
     public String getDescription() {
         return description;
     }
@@ -483,7 +467,6 @@ public class Game {
      * @param description
      * The description
      */
-    @JsonProperty("description")
     public void setDescription(String description) {
         this.description = description;
     }
@@ -493,8 +476,7 @@ public class Game {
      * @return
      * The lastUpdated
      */
-    @JsonProperty("last_updated")
-    public Integer getLastUpdated() {
+    public long getLastUpdated() {
         return lastUpdated;
     }
 
@@ -503,8 +485,7 @@ public class Game {
      * @param lastUpdated
      * The last_updated
      */
-    @JsonProperty("last_updated")
-    public void setLastUpdated(Integer lastUpdated) {
+    public void setLastUpdated(long lastUpdated) {
         this.lastUpdated = lastUpdated;
     }
 
@@ -513,7 +494,6 @@ public class Game {
      * @return
      * The htmlDescription
      */
-    @JsonProperty("html_description")
     public String getHtmlDescription() {
         return htmlDescription;
     }
@@ -523,19 +503,8 @@ public class Game {
      * @param htmlDescription
      * The html_description
      */
-    @JsonProperty("html_description")
     public void setHtmlDescription(String htmlDescription) {
         this.htmlDescription = htmlDescription;
-    }
-
-    @JsonAnyGetter
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
-
-    @JsonAnySetter
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
     }
 
 }
