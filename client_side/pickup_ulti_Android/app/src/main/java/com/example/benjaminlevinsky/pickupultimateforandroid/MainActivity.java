@@ -1,10 +1,7 @@
 package com.example.benjaminlevinsky.pickupultimateforandroid;
 
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -13,15 +10,15 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.server.converter.StringToIntConverter;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -35,94 +32,103 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
-
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+        implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
 
     // Trailing slash is needed
-    public static final String BASE_URL = "http://130.157.114.28:8081/";
+    public static final String BASE_URL = "http://73.15.244.146:8081/";
 
 
+    private View.OnClickListener fabClickListener = new View.OnClickListener() {
+        Gson gson = new GsonBuilder()
+                .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
+                .create();
+
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create(gson))
+                .build();
+
+        PickUpGamesAPIEndpointInterface apiService =
+                retrofit.create(PickUpGamesAPIEndpointInterface.class);
+
+
+        @Override
+        public void onClick(final View view) {
+
+            Call<List<Game>> call = apiService.getAllGames();
+            call.enqueue(new Callback<List<Game>>() {
+                @Override
+                public void onResponse(Call<List<Game>> call, Response<List<Game>> response) {
+                    List<Game> games = response.body();
+
+                    try {
+                        showSnackBarWithMessage("success", view);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                @Override
+                public void onFailure(Call call, Throwable t) {
+                    // Log error here since request failed
+                    try {
+                        showSnackBarWithMessage("failure", view);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        assert fab != null;
-        fab.setOnClickListener(new View.OnClickListener() {
-            Gson gson = new GsonBuilder()
-                    .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
-                    .create();
-
-            Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl(BASE_URL)
-                    .addConverterFactory(GsonConverterFactory.create(gson))
-                    .build();
-
-            PickUpGamesAPIEndpointInterface apiService =
-                    retrofit.create(PickUpGamesAPIEndpointInterface.class);
+        setUpFab();
+        setUpDrawer(toolbar);
+        setUpNavView();
 
 
-            @Override
-            public void onClick(final View view) {
-
-                Call<List<Game>> call = apiService.getAllGames();
-                call.enqueue(new Callback<List<Game>>() {
-                    @Override
-                    public void onResponse(Call<List<Game>> call, Response<List<Game>> response) {
-                        List<Game> games = response.body();
-
-                        try {
-                            showSnackBarWithMessage("success", view);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call call, Throwable t) {
-                        // Log error here since request failed
-                        try {
-                            showSnackBarWithMessage("failure", view);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                });
-            }
-        });
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        if (drawer != null) {
-            drawer.setDrawerListener(toggle);
-        }
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        assert navigationView != null;
-        navigationView.setNavigationItemSelectedListener(this);
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-
+        MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
     }
 
-   private void showSnackBarWithMessage(@NonNull String message, @NonNull View view) throws IOException {
+    private void setUpFab(){
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        assert fab != null;
+        fab.setOnClickListener(fabClickListener);
+    }
+
+    private void showSnackBarWithMessage(@NonNull String message, @NonNull View view) throws IOException {
 
         Snackbar.make(view, "attempt to establish connection was a " + message, Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show();
     }
 
+    private void setUpDrawer(Toolbar toolbar){
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        if (drawer != null) {
+            drawer.addDrawerListener(toggle);
+        }
+
+        toggle.syncState();
+    }
+
+    private void setUpNavView(){
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        assert navigationView != null;
+        navigationView.setNavigationItemSelectedListener(this);
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+//        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+    }
 
     @Override
     public void onBackPressed() {
@@ -184,43 +190,11 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.connect();
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "Main Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://com.example.benjaminlevinsky.pickupultimateforandroid/http/host/path")
-        );
-        AppIndex.AppIndexApi.start(client, viewAction);
-    }
 
     @Override
-    public void onStop() {
-        super.onStop();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "Main Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://com.example.benjaminlevinsky.pickupultimateforandroid/http/host/path")
-        );
-        AppIndex.AppIndexApi.end(client, viewAction);
-        client.disconnect();
+    public void onMapReady(GoogleMap googleMap) {
+        googleMap.addMarker(new MarkerOptions()
+                .position(new LatLng(0, 0))
+                .title("Marker"));
     }
 }
