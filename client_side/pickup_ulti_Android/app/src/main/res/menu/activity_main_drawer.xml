@@ -3,9 +3,6 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/games"
-            android:title="Games" />
-        <item
             android:id="@+id/cities"
             android:title="Cities" />
         <item

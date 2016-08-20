@@ -1,0 +1,2534 @@
+[
+  {
+    "id": 61,
+    "city": "Allentown"
+  },
+  {
+    "id": 2545,
+    "city": "Great Barrington"
+  },
+  {
+    "id": 3309,
+    "city": "Wichita"
+  },
+  {
+    "id": 3666,
+    "city": "Port of Spain"
+  },
+  {
+    "id": 3328,
+    "city": "Stillwater"
+  },
+  {
+    "id": 68,
+    "city": "Ooltewah"
+  },
+  {
+    "id": 3772,
+    "city": "Colorado Springs"
+  },
+  {
+    "id": 703,
+    "city": "Waitemata"
+  },
+  {
+    "id": 3794,
+    "city": "Kamuela"
+  },
+  {
+    "id": 139,
+    "city": "Baltimore"
+  },
+  {
+    "id": 3524,
+    "city": "Los Angeles"
+  },
+  {
+    "id": 161,
+    "city": "Evanston"
+  },
+  {
+    "id": 2144,
+    "city": "Wichita"
+  },
+  {
+    "id": 202,
+    "city": "San Luis Obispo"
+  },
+  {
+    "id": 2793,
+    "city": "Um al Usud"
+  },
+  {
+    "id": 3776,
+    "city": "åŽå…«å®¶"
+  },
+  {
+    "id": 671,
+    "city": "Madrid"
+  },
+  {
+    "id": 1587,
+    "city": "Bengaluru"
+  },
+  {
+    "id": 200,
+    "city": "Southfield"
+  },
+  {
+    "id": 1660,
+    "city": "Milpitas"
+  },
+  {
+    "id": 3751,
+    "city": "Elkins Park"
+  },
+  {
+    "id": 3736,
+    "city": "Houston"
+  },
+  {
+    "id": 193,
+    "city": "Redmond"
+  },
+  {
+    "id": 204,
+    "city": "Dallas"
+  },
+  {
+    "id": 2949,
+    "city": "San Ramon"
+  },
+  {
+    "id": 2745,
+    "city": "Blacksburg"
+  },
+  {
+    "id": 596,
+    "city": "Kansas City"
+  },
+  {
+    "id": 189,
+    "city": "Pelham"
+  },
+  {
+    "id": 3735,
+    "city": "Moorhead"
+  },
+  {
+    "id": 318,
+    "city": "Houston"
+  },
+  {
+    "id": 203,
+    "city": "Orange"
+  },
+  {
+    "id": 1652,
+    "city": "Baltimore"
+  },
+  {
+    "id": 328,
+    "city": "Austin"
+  },
+  {
+    "id": 267,
+    "city": "San Diego"
+  },
+  {
+    "id": 3716,
+    "city": "Arcata"
+  },
+  {
+    "id": 2394,
+    "city": "Lilongwe"
+  },
+  {
+    "id": 2667,
+    "city": "Phoenix"
+  },
+  {
+    "id": 3631,
+    "city": "Laredo"
+  },
+  {
+    "id": 3708,
+    "city": "Nottingham"
+  },
+  {
+    "id": 2400,
+    "city": "La Canada Flintridge"
+  },
+  {
+    "id": 3761,
+    "city": "Crolles"
+  },
+  {
+    "id": 3374,
+    "city": "Midland"
+  },
+  {
+    "id": 3356,
+    "city": "Seattle"
+  },
+  {
+    "id": 65,
+    "city": "Yellow Springs"
+  },
+  {
+    "id": 3625,
+    "city": "Schaumburg"
+  },
+  {
+    "id": 3508,
+    "city": "Berlin"
+  },
+  {
+    "id": 3665,
+    "city": "Riverton"
+  },
+  {
+    "id": 3327,
+    "city": "Irvine"
+  },
+  {
+    "id": 1426,
+    "city": "Portland"
+  },
+  {
+    "id": 3618,
+    "city": "Redding"
+  },
+  {
+    "id": 3425,
+    "city": "Carlisle"
+  },
+  {
+    "id": 378,
+    "city": "Hermosa Beach"
+  },
+  {
+    "id": 1867,
+    "city": "Sykesville"
+  },
+  {
+    "id": 3611,
+    "city": "Hood River"
+  },
+  {
+    "id": 3417,
+    "city": "Bar Harbor"
+  },
+  {
+    "id": 3755,
+    "city": "Lancaster"
+  },
+  {
+    "id": 334,
+    "city": "La Canada Flintridge"
+  },
+  {
+    "id": 1541,
+    "city": "Saint Joseph"
+  },
+  {
+    "id": 3315,
+    "city": "Lighthouse Point"
+  },
+  {
+    "id": 1162,
+    "city": "Cooperstown"
+  },
+  {
+    "id": 3723,
+    "city": "Ilion"
+  },
+  {
+    "id": 2098,
+    "city": "Austin"
+  },
+  {
+    "id": 179,
+    "city": "Schenectady"
+  },
+  {
+    "id": 2389,
+    "city": "Frederick"
+  },
+  {
+    "id": 2399,
+    "city": "Cape Town"
+  },
+  {
+    "id": 1287,
+    "city": "Palo Alto"
+  },
+  {
+    "id": 812,
+    "city": "Novato"
+  },
+  {
+    "id": 356,
+    "city": "Pacific Palisades"
+  },
+  {
+    "id": 950,
+    "city": "Holland"
+  },
+  {
+    "id": 2785,
+    "city": "Oakland"
+  },
+  {
+    "id": 1865,
+    "city": "Rochester"
+  },
+  {
+    "id": 358,
+    "city": "Santa Monica"
+  },
+  {
+    "id": 616,
+    "city": "Tomball"
+  },
+  {
+    "id": 3709,
+    "city": "Ewing"
+  },
+  {
+    "id": 2289,
+    "city": "LeÃ³n"
+  },
+  {
+    "id": 2593,
+    "city": "Beaverton"
+  },
+  {
+    "id": 351,
+    "city": "La Canada Flintridge"
+  },
+  {
+    "id": 357,
+    "city": "Newbury Park"
+  },
+  {
+    "id": 346,
+    "city": "Culver City"
+  },
+  {
+    "id": 125,
+    "city": "Nashua"
+  },
+  {
+    "id": 888,
+    "city": "Randburg"
+  },
+  {
+    "id": 1130,
+    "city": "Peachtree City"
+  },
+  {
+    "id": 3326,
+    "city": "West Des Moines"
+  },
+  {
+    "id": 3711,
+    "city": "Port Angeles"
+  },
+  {
+    "id": 3781,
+    "city": "Fort Collins"
+  },
+  {
+    "id": 3304,
+    "city": "Sumter"
+  },
+  {
+    "id": 3291,
+    "city": "North Canton"
+  },
+  {
+    "id": 1427,
+    "city": "Cedar Rapids"
+  },
+  {
+    "id": 3558,
+    "city": "Royersford"
+  },
+  {
+    "id": 3373,
+    "city": "Wheaton"
+  },
+  {
+    "id": 2083,
+    "city": "Palm Beach Gardens"
+  },
+  {
+    "id": 154,
+    "city": "San Diego"
+  },
+  {
+    "id": 3682,
+    "city": "Ridgefield"
+  },
+  {
+    "id": 3619,
+    "city": "Aurora"
+  },
+  {
+    "id": 365,
+    "city": "Cape Town"
+  },
+  {
+    "id": 2354,
+    "city": "Rowlett"
+  },
+  {
+    "id": 3195,
+    "city": "Juffair"
+  },
+  {
+    "id": 3503,
+    "city": "Wichita"
+  },
+  {
+    "id": 3513,
+    "city": "Frankfurt am Main"
+  },
+  {
+    "id": 3777,
+    "city": "Provo"
+  },
+  {
+    "id": 1378,
+    "city": "Portsmouth"
+  },
+  {
+    "id": 1037,
+    "city": "Minneapolis"
+  },
+  {
+    "id": 2860,
+    "city": "San Diego"
+  },
+  {
+    "id": 3515,
+    "city": "Frankfurt am Main"
+  },
+  {
+    "id": 3648,
+    "city": "Oxford"
+  },
+  {
+    "id": 3472,
+    "city": "Saint Louis"
+  },
+  {
+    "id": 2360,
+    "city": "San Francisco"
+  },
+  {
+    "id": 2904,
+    "city": "Rockford"
+  },
+  {
+    "id": 460,
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 1599,
+    "city": "Morrisville"
+  },
+  {
+    "id": 3756,
+    "city": "Lancaster"
+  },
+  {
+    "id": 3468,
+    "city": "Berlin"
+  },
+  {
+    "id": 3624,
+    "city": "Sacramento"
+  },
+  {
+    "id": 104,
+    "city": "Saratoga Springs"
+  },
+  {
+    "id": 3485,
+    "city": "San Luis Obispo"
+  },
+  {
+    "id": 504,
+    "city": "Cape Town"
+  },
+  {
+    "id": 3732,
+    "city": ""
+  },
+  {
+    "id": 3407,
+    "city": "Wrentham"
+  },
+  {
+    "id": 3801,
+    "city": "Sydney"
+  },
+  {
+    "id": 2392,
+    "city": "Golden"
+  },
+  {
+    "id": 1490,
+    "city": "Palo Alto"
+  },
+  {
+    "id": 485,
+    "city": "Derwood"
+  },
+  {
+    "id": 1539,
+    "city": "San Jose"
+  },
+  {
+    "id": 3369,
+    "city": "Amsterdam"
+  },
+  {
+    "id": 163,
+    "city": "Rutland"
+  },
+  {
+    "id": 3099,
+    "city": "Asheville"
+  },
+  {
+    "id": 660,
+    "city": "New Haven"
+  },
+  {
+    "id": 2885,
+    "city": "Ashland"
+  },
+  {
+    "id": 2656,
+    "city": "Port Orchard"
+  },
+  {
+    "id": 3807,
+    "city": "Salt Lake City"
+  },
+  {
+    "id": 3605,
+    "city": "Miami"
+  },
+  {
+    "id": 3575,
+    "city": "Avignon"
+  },
+  {
+    "id": 549,
+    "city": "Nevada City"
+  },
+  {
+    "id": 3730,
+    "city": "Ramenki District"
+  },
+  {
+    "id": 3753,
+    "city": "Levittown"
+  },
+  {
+    "id": 1892,
+    "city": "Richland"
+  },
+  {
+    "id": 3769,
+    "city": "Gainesville"
+  },
+  {
+    "id": 712,
+    "city": "Atlanta"
+  },
+  {
+    "id": 3729,
+    "city": "Saint Paul"
+  },
+  {
+    "id": 3180,
+    "city": "College Park"
+  },
+  {
+    "id": 3415,
+    "city": "Jacarandas de Cayala"
+  },
+  {
+    "id": 3717,
+    "city": "Cardiff By the Sea"
+  },
+  {
+    "id": 3551,
+    "city": "Colombo"
+  },
+  {
+    "id": 3560,
+    "city": "San Pedro"
+  },
+  {
+    "id": 517,
+    "city": "Osaka"
+  },
+  {
+    "id": 475,
+    "city": "Sheboygan"
+  },
+  {
+    "id": 3300,
+    "city": "Galveston"
+  },
+  {
+    "id": 2238,
+    "city": "Spokane"
+  },
+  {
+    "id": 1072,
+    "city": "Austin"
+  },
+  {
+    "id": 3219,
+    "city": "Roseville"
+  },
+  {
+    "id": 2719,
+    "city": "Providence"
+  },
+  {
+    "id": 981,
+    "city": "Saint Paul"
+  },
+  {
+    "id": 1899,
+    "city": "Troy"
+  },
+  {
+    "id": 788,
+    "city": "London"
+  },
+  {
+    "id": 3598,
+    "city": "San Francisco"
+  },
+  {
+    "id": 252,
+    "city": "Austin"
+  },
+  {
+    "id": 3693,
+    "city": "Libertyville"
+  },
+  {
+    "id": 3554,
+    "city": "Miami"
+  },
+  {
+    "id": 3151,
+    "city": "San Diego"
+  },
+  {
+    "id": 3750,
+    "city": "Mccordsville"
+  },
+  {
+    "id": 802,
+    "city": "Overland Park"
+  },
+  {
+    "id": 1958,
+    "city": "New Paltz"
+  },
+  {
+    "id": 546,
+    "city": "Los Angeles"
+  },
+  {
+    "id": 2372,
+    "city": "Santa Rosa"
+  },
+  {
+    "id": 1007,
+    "city": "San Jose"
+  },
+  {
+    "id": 516,
+    "city": "North Falmouth"
+  },
+  {
+    "id": 1563,
+    "city": "San Diego"
+  },
+  {
+    "id": 3661,
+    "city": "Oklahoma City"
+  },
+  {
+    "id": 1390,
+    "city": "Bothell"
+  },
+  {
+    "id": 3470,
+    "city": "Westlake Village"
+  },
+  {
+    "id": 1154,
+    "city": "Durban"
+  },
+  {
+    "id": 723,
+    "city": "Richland"
+  },
+  {
+    "id": 533,
+    "city": "College Park"
+  },
+  {
+    "id": 1998,
+    "city": "Minneapolis"
+  },
+  {
+    "id": 743,
+    "city": "Stellenbosch Local Municipality"
+  },
+  {
+    "id": 3768,
+    "city": "Fort Worth"
+  },
+  {
+    "id": 1420,
+    "city": "Fullerton"
+  },
+  {
+    "id": 2931,
+    "city": "Anaheim"
+  },
+  {
+    "id": 817,
+    "city": "Santa Monica"
+  },
+  {
+    "id": 1537,
+    "city": "Stockton"
+  },
+  {
+    "id": 3674,
+    "city": "Guelph"
+  },
+  {
+    "id": 2908,
+    "city": "Conshohocken"
+  },
+  {
+    "id": 751,
+    "city": "Iowa City"
+  },
+  {
+    "id": 3250,
+    "city": "Dakar"
+  },
+  {
+    "id": 1218,
+    "city": "New Orleans"
+  },
+  {
+    "id": 1294,
+    "city": "Vancouver"
+  },
+  {
+    "id": 3104,
+    "city": "Dorchester"
+  },
+  {
+    "id": 3749,
+    "city": "Kalamazoo"
+  },
+  {
+    "id": 2541,
+    "city": "Coronado"
+  },
+  {
+    "id": 3596,
+    "city": "Virginia Beach"
+  },
+  {
+    "id": 2367,
+    "city": "London"
+  },
+  {
+    "id": 551,
+    "city": "Woodstock"
+  },
+  {
+    "id": 1515,
+    "city": "Las Palmas de Gran Canaria"
+  },
+  {
+    "id": 3601,
+    "city": "Pori"
+  },
+  {
+    "id": 3341,
+    "city": "Titusville"
+  },
+  {
+    "id": 2374,
+    "city": "Austin"
+  },
+  {
+    "id": 3220,
+    "city": "Stanford"
+  },
+  {
+    "id": 2865,
+    "city": "Joseph"
+  },
+  {
+    "id": 2428,
+    "city": "LinkÃ¶ping"
+  },
+  {
+    "id": 3689,
+    "city": "Belfast"
+  },
+  {
+    "id": 820,
+    "city": "Red Hook"
+  },
+  {
+    "id": 3770,
+    "city": "Alexandria"
+  },
+  {
+    "id": 2497,
+    "city": "Lafayette"
+  },
+  {
+    "id": 3743,
+    "city": "Saint Paul"
+  },
+  {
+    "id": 3224,
+    "city": "Petaluma"
+  },
+  {
+    "id": 3570,
+    "city": "Caracas"
+  },
+  {
+    "id": 3201,
+    "city": "Bellevue"
+  },
+  {
+    "id": 3787,
+    "city": "Monterey"
+  },
+  {
+    "id": 3321,
+    "city": "Baltimore"
+  },
+  {
+    "id": 1002,
+    "city": "Las Vegas"
+  },
+  {
+    "id": 2893,
+    "city": "Fulton"
+  },
+  {
+    "id": 3610,
+    "city": "Vantaa"
+  },
+  {
+    "id": 890,
+    "city": "Frankfort"
+  },
+  {
+    "id": 3659,
+    "city": "Damariscotta"
+  },
+  {
+    "id": 3128,
+    "city": "Paris"
+  },
+  {
+    "id": 3531,
+    "city": "Paris"
+  },
+  {
+    "id": 3364,
+    "city": "Hingham"
+  },
+  {
+    "id": 3793,
+    "city": "Nelson"
+  },
+  {
+    "id": 2362,
+    "city": "Albuquerque"
+  },
+  {
+    "id": 3691,
+    "city": "Miami"
+  },
+  {
+    "id": 1739,
+    "city": "San Antonio"
+  },
+  {
+    "id": 3118,
+    "city": "London"
+  },
+  {
+    "id": 3414,
+    "city": "Munich"
+  },
+  {
+    "id": 3798,
+    "city": "Millis"
+  },
+  {
+    "id": 3737,
+    "city": "Wooster"
+  },
+  {
+    "id": 3544,
+    "city": "New Delhi"
+  },
+  {
+    "id": 3499,
+    "city": "Spring"
+  },
+  {
+    "id": 1470,
+    "city": "Camarillo"
+  },
+  {
+    "id": 3112,
+    "city": "Sydney"
+  },
+  {
+    "id": 3765,
+    "city": "London"
+  },
+  {
+    "id": 2207,
+    "city": "San Luis Obispo"
+  },
+  {
+    "id": 2382,
+    "city": "Paris"
+  },
+  {
+    "id": 2166,
+    "city": "Santa Barbara"
+  },
+  {
+    "id": 2775,
+    "city": "Portland"
+  },
+  {
+    "id": 1682,
+    "city": "Beaufort"
+  },
+  {
+    "id": 1387,
+    "city": "Miamisburg"
+  },
+  {
+    "id": 2897,
+    "city": "London"
+  },
+  {
+    "id": 3257,
+    "city": "San Diego"
+  },
+  {
+    "id": 3676,
+    "city": "Albuquerque"
+  },
+  {
+    "id": 1545,
+    "city": "Melbourne"
+  },
+  {
+    "id": 2678,
+    "city": "Washington"
+  },
+  {
+    "id": 2704,
+    "city": "Highlands Ranch"
+  },
+  {
+    "id": 3805,
+    "city": "Provo"
+  },
+  {
+    "id": 1449,
+    "city": "Newark"
+  },
+  {
+    "id": 3154,
+    "city": "Bryn Mawr"
+  },
+  {
+    "id": 636,
+    "city": "Dallas"
+  },
+  {
+    "id": 2567,
+    "city": "San Francisco"
+  },
+  {
+    "id": 3739,
+    "city": "London"
+  },
+  {
+    "id": 3746,
+    "city": "Mountain Home"
+  },
+  {
+    "id": 3592,
+    "city": "CoyoacÃ¡n"
+  },
+  {
+    "id": 3566,
+    "city": "Elizabethtown"
+  },
+  {
+    "id": 2220,
+    "city": "Boulder"
+  },
+  {
+    "id": 3790,
+    "city": "Austin"
+  },
+  {
+    "id": 3552,
+    "city": "Arlington"
+  },
+  {
+    "id": 1171,
+    "city": "Las Vegas"
+  },
+  {
+    "id": 1315,
+    "city": "Seabrook"
+  },
+  {
+    "id": 3311,
+    "city": "Canberra"
+  },
+  {
+    "id": 3774,
+    "city": "Congers"
+  },
+  {
+    "id": 2206,
+    "city": "Minneapolis"
+  },
+  {
+    "id": 3445,
+    "city": "Cardiff By the Sea"
+  },
+  {
+    "id": 3458,
+    "city": "Denver"
+  },
+  {
+    "id": 3534,
+    "city": "Rancho Cordova"
+  },
+  {
+    "id": 3268,
+    "city": "Carlsbad"
+  },
+  {
+    "id": 2565,
+    "city": "Adelaide"
+  },
+  {
+    "id": 2018,
+    "city": "Culver City"
+  },
+  {
+    "id": 2914,
+    "city": "Chicago"
+  },
+  {
+    "id": 1184,
+    "city": "East Brunswick"
+  },
+  {
+    "id": 3788,
+    "city": "San Diego"
+  },
+  {
+    "id": 3752,
+    "city": "Rochester"
+  },
+  {
+    "id": 3442,
+    "city": "Oceanside"
+  },
+  {
+    "id": 3292,
+    "city": "Normal"
+  },
+  {
+    "id": 3720,
+    "city": "Killeen"
+  },
+  {
+    "id": 3007,
+    "city": "Auroville"
+  },
+  {
+    "id": 1546,
+    "city": "Palo Alto"
+  },
+  {
+    "id": 2937,
+    "city": "Chambersburg"
+  },
+  {
+    "id": 2839,
+    "city": "Brooklyn"
+  },
+  {
+    "id": 1393,
+    "city": "Tempe"
+  },
+  {
+    "id": 2682,
+    "city": "Sparta"
+  },
+  {
+    "id": 3344,
+    "city": "Rehovot"
+  },
+  {
+    "id": 3243,
+    "city": "Atlanta"
+  },
+  {
+    "id": 3529,
+    "city": "Palo Alto"
+  },
+  {
+    "id": 1316,
+    "city": "Houston"
+  },
+  {
+    "id": 2553,
+    "city": "Austin"
+  },
+  {
+    "id": 3497,
+    "city": "Hanover"
+  },
+  {
+    "id": 3149,
+    "city": "Pretoria"
+  },
+  {
+    "id": 2591,
+    "city": "Brighton"
+  },
+  {
+    "id": 3054,
+    "city": "Redwood City"
+  },
+  {
+    "id": 3067,
+    "city": "Hudson"
+  },
+  {
+    "id": 3359,
+    "city": "San Diego"
+  },
+  {
+    "id": 3212,
+    "city": "Clarksville"
+  },
+  {
+    "id": 3555,
+    "city": "Dorchester"
+  },
+  {
+    "id": 3378,
+    "city": "Panama City Beach"
+  },
+  {
+    "id": 3690,
+    "city": "MÃ©rida"
+  },
+  {
+    "id": 3578,
+    "city": "Reno"
+  },
+  {
+    "id": 3421,
+    "city": "Dumfries"
+  },
+  {
+    "id": 3675,
+    "city": "Los Angeles"
+  },
+  {
+    "id": 3536,
+    "city": "Sacramento"
+  },
+  {
+    "id": 2900,
+    "city": "Virginia Beach"
+  },
+  {
+    "id": 2534,
+    "city": "Columbus"
+  },
+  {
+    "id": 2003,
+    "city": "Cotuit"
+  },
+  {
+    "id": 3205,
+    "city": "San CristÃ³bal de las Casas"
+  },
+  {
+    "id": 3803,
+    "city": "San Jose"
+  },
+  {
+    "id": 3465,
+    "city": "Pueblo"
+  },
+  {
+    "id": 3481,
+    "city": "Moorestown"
+  },
+  {
+    "id": 3247,
+    "city": "Gulf Shores"
+  },
+  {
+    "id": 3792,
+    "city": "Dayton"
+  },
+  {
+    "id": 3620,
+    "city": "Clovis"
+  },
+  {
+    "id": 3164,
+    "city": "Cape Town"
+  },
+  {
+    "id": 3050,
+    "city": "Murrieta"
+  },
+  {
+    "id": 2463,
+    "city": "Ramat Negev Regional Council"
+  },
+  {
+    "id": 3651,
+    "city": "Antofagasta"
+  },
+  {
+    "id": 1119,
+    "city": "Portland"
+  },
+  {
+    "id": 3684,
+    "city": "Spokane"
+  },
+  {
+    "id": 3728,
+    "city": "Sentosa Cove"
+  },
+  {
+    "id": 2666,
+    "city": "Tucson"
+  },
+  {
+    "id": 844,
+    "city": "Saint Augustine"
+  },
+  {
+    "id": 2064,
+    "city": "San Diego"
+  },
+  {
+    "id": 3715,
+    "city": "Spring Hill"
+  },
+  {
+    "id": 1149,
+    "city": "Orlando"
+  },
+  {
+    "id": 3796,
+    "city": "Yorktown"
+  },
+  {
+    "id": 3785,
+    "city": "Los Alamitos"
+  },
+  {
+    "id": 3424,
+    "city": "Waupun"
+  },
+  {
+    "id": 1431,
+    "city": "Jerusalem"
+  },
+  {
+    "id": 3547,
+    "city": "Maungakiekie-Tamaki"
+  },
+  {
+    "id": 1429,
+    "city": "KlaipÄ—da"
+  },
+  {
+    "id": 1963,
+    "city": "Auburndale"
+  },
+  {
+    "id": 3009,
+    "city": "Houston"
+  },
+  {
+    "id": 3409,
+    "city": "Terre Haute"
+  },
+  {
+    "id": 3741,
+    "city": "Key West"
+  },
+  {
+    "id": 3492,
+    "city": "Palo Alto"
+  },
+  {
+    "id": 2784,
+    "city": "Patuxent River"
+  },
+  {
+    "id": 2681,
+    "city": "Tartu"
+  },
+  {
+    "id": 2067,
+    "city": "Cincinnati"
+  },
+  {
+    "id": 3766,
+    "city": "Vernal"
+  },
+  {
+    "id": 3183,
+    "city": "London"
+  },
+  {
+    "id": 3235,
+    "city": "Los Angeles"
+  },
+  {
+    "id": 3734,
+    "city": "Brisbane"
+  },
+  {
+    "id": 2307,
+    "city": "Shenzhen"
+  },
+  {
+    "id": 922,
+    "city": "London"
+  },
+  {
+    "id": 2854,
+    "city": "Frisco"
+  },
+  {
+    "id": 921,
+    "city": "Poway"
+  },
+  {
+    "id": 3246,
+    "city": "Austin"
+  },
+  {
+    "id": 295,
+    "city": "Sykesville"
+  },
+  {
+    "id": 937,
+    "city": "Ellington"
+  },
+  {
+    "id": 3137,
+    "city": "Arlington"
+  },
+  {
+    "id": 2139,
+    "city": "White Plains"
+  },
+  {
+    "id": 3795,
+    "city": "Newfields"
+  },
+  {
+    "id": 1714,
+    "city": "Arroyo Grande"
+  },
+  {
+    "id": 1982,
+    "city": "Austin"
+  },
+  {
+    "id": 978,
+    "city": "Greenville"
+  },
+  {
+    "id": 3679,
+    "city": "Harrisonburg"
+  },
+  {
+    "id": 1469,
+    "city": "Columbia"
+  },
+  {
+    "id": 2190,
+    "city": "Summerland Key"
+  },
+  {
+    "id": 938,
+    "city": "Cupertino"
+  },
+  {
+    "id": 3663,
+    "city": "Tempe"
+  },
+  {
+    "id": 3170,
+    "city": "Humble"
+  },
+  {
+    "id": 1174,
+    "city": "Las Vegas"
+  },
+  {
+    "id": 3784,
+    "city": "Joppa"
+  },
+  {
+    "id": 3722,
+    "city": "Rotorua"
+  },
+  {
+    "id": 3477,
+    "city": "Moorhead"
+  },
+  {
+    "id": 2730,
+    "city": "Urbana"
+  },
+  {
+    "id": 2811,
+    "city": "Daegu"
+  },
+  {
+    "id": 3738,
+    "city": "Mito"
+  },
+  {
+    "id": 2011,
+    "city": "Ambler"
+  },
+  {
+    "id": 1257,
+    "city": "Troy"
+  },
+  {
+    "id": 3240,
+    "city": "Weehawken"
+  },
+  {
+    "id": 3277,
+    "city": "Spearfish"
+  },
+  {
+    "id": 1519,
+    "city": "Hiroshima"
+  },
+  {
+    "id": 2095,
+    "city": "Derby"
+  },
+  {
+    "id": 3483,
+    "city": "Arlington"
+  },
+  {
+    "id": 2121,
+    "city": "Mobile"
+  },
+  {
+    "id": 3643,
+    "city": "Savannah"
+  },
+  {
+    "id": 3799,
+    "city": "Schaumburg"
+  },
+  {
+    "id": 3758,
+    "city": "Mechanicsburg"
+  },
+  {
+    "id": 3806,
+    "city": "Bountiful"
+  },
+  {
+    "id": 3129,
+    "city": "Springfield"
+  },
+  {
+    "id": 724,
+    "city": "Astoria"
+  },
+  {
+    "id": 2788,
+    "city": "Canberra"
+  },
+  {
+    "id": 3517,
+    "city": "Lisbon"
+  },
+  {
+    "id": 2364,
+    "city": "Olathe"
+  },
+  {
+    "id": 3649,
+    "city": "King of Prussia"
+  },
+  {
+    "id": 1929,
+    "city": "Atlanta"
+  },
+  {
+    "id": 3627,
+    "city": "Sparks"
+  },
+  {
+    "id": 3607,
+    "city": "Union City"
+  },
+  {
+    "id": 779,
+    "city": "Dayton"
+  },
+  {
+    "id": 3809,
+    "city": "Santurce"
+  },
+  {
+    "id": 3041,
+    "city": "Toro Park"
+  },
+  {
+    "id": 766,
+    "city": "Rochester"
+  },
+  {
+    "id": 3808,
+    "city": "Salt Lake City"
+  },
+  {
+    "id": 3522,
+    "city": "Clovis"
+  },
+  {
+    "id": 3778,
+    "city": "Herriman"
+  },
+  {
+    "id": 93,
+    "city": "Princeton"
+  },
+  {
+    "id": 2242,
+    "city": "Key Biscayne"
+  },
+  {
+    "id": 89,
+    "city": "Springfield"
+  },
+  {
+    "id": 2335,
+    "city": "Littleton"
+  },
+  {
+    "id": 80,
+    "city": "Riverside"
+  },
+  {
+    "id": 2192,
+    "city": "Milwaukee"
+  },
+  {
+    "id": 261,
+    "city": "Laurel"
+  },
+  {
+    "id": 3671,
+    "city": "Dyer"
+  },
+  {
+    "id": 3698,
+    "city": "Perrysburg"
+  },
+  {
+    "id": 3299,
+    "city": "Pikesville"
+  },
+  {
+    "id": 1331,
+    "city": "Ambler"
+  },
+  {
+    "id": 331,
+    "city": "Lancaster"
+  },
+  {
+    "id": 58,
+    "city": "Houston"
+  },
+  {
+    "id": 835,
+    "city": "Cincinnati"
+  },
+  {
+    "id": 1026,
+    "city": "San Diego"
+  },
+  {
+    "id": 3249,
+    "city": "Chicago"
+  },
+  {
+    "id": 3165,
+    "city": "Mendocino"
+  },
+  {
+    "id": 3520,
+    "city": "San Antonio"
+  },
+  {
+    "id": 1093,
+    "city": "Berkeley"
+  },
+  {
+    "id": 243,
+    "city": "Rockville"
+  },
+  {
+    "id": 280,
+    "city": "Dowell"
+  },
+  {
+    "id": 1139,
+    "city": "Sedona"
+  },
+  {
+    "id": 3800,
+    "city": "Sydney"
+  },
+  {
+    "id": 3248,
+    "city": "Troy"
+  },
+  {
+    "id": 3748,
+    "city": "Nicosia"
+  },
+  {
+    "id": 948,
+    "city": "Carmel"
+  },
+  {
+    "id": 985,
+    "city": "The Hague"
+  },
+  {
+    "id": 3179,
+    "city": "Greensboro"
+  },
+  {
+    "id": 2107,
+    "city": "Bunbury"
+  },
+  {
+    "id": 3764,
+    "city": ""
+  },
+  {
+    "id": 3500,
+    "city": "New York"
+  },
+  {
+    "id": 3358,
+    "city": "North Augusta"
+  },
+  {
+    "id": 3313,
+    "city": "Dhahran Compound"
+  },
+  {
+    "id": 3791,
+    "city": "Glendora"
+  },
+  {
+    "id": 3072,
+    "city": "Knoxville"
+  },
+  {
+    "id": 3401,
+    "city": "Chico"
+  },
+  {
+    "id": 1335,
+    "city": "Al-Rayyan"
+  },
+  {
+    "id": 3814,
+    "city": "Gorham"
+  },
+  {
+    "id": 3572,
+    "city": "Mission Viejo"
+  },
+  {
+    "id": 3688,
+    "city": "Murrieta"
+  },
+  {
+    "id": 3654,
+    "city": "Konstanz"
+  },
+  {
+    "id": 3669,
+    "city": "Burien"
+  },
+  {
+    "id": 2171,
+    "city": "Usaf Academy"
+  },
+  {
+    "id": 3516,
+    "city": "Beaumont"
+  },
+  {
+    "id": 2225,
+    "city": "Saratoga"
+  },
+  {
+    "id": 3685,
+    "city": "Puerto Real"
+  },
+  {
+    "id": 3804,
+    "city": "Spanish Fork"
+  },
+  {
+    "id": 3670,
+    "city": "Philadelphia"
+  },
+  {
+    "id": 3459,
+    "city": "Pompano Beach"
+  },
+  {
+    "id": 1261,
+    "city": "North Hollywood"
+  },
+  {
+    "id": 2233,
+    "city": "Long Beach"
+  },
+  {
+    "id": 2258,
+    "city": "Tempe"
+  },
+  {
+    "id": 3633,
+    "city": "TÃ¼bingen"
+  },
+  {
+    "id": 2766,
+    "city": "MÃ©rida"
+  },
+  {
+    "id": 73,
+    "city": "Harrisonburg"
+  },
+  {
+    "id": 3136,
+    "city": "Napa"
+  },
+  {
+    "id": 2644,
+    "city": "Bengaluru"
+  },
+  {
+    "id": 1939,
+    "city": "Shenzhen"
+  },
+  {
+    "id": 3134,
+    "city": "Nottingham"
+  },
+  {
+    "id": 3278,
+    "city": "Hillsborough"
+  },
+  {
+    "id": 2408,
+    "city": "College Station"
+  },
+  {
+    "id": 1897,
+    "city": "Marlton"
+  },
+  {
+    "id": 2505,
+    "city": "Boston"
+  },
+  {
+    "id": 1593,
+    "city": "Roseville"
+  },
+  {
+    "id": 3662,
+    "city": "Panama City"
+  },
+  {
+    "id": 3706,
+    "city": "New Castle"
+  },
+  {
+    "id": 2671,
+    "city": "Baltimore"
+  },
+  {
+    "id": 3502,
+    "city": "San Diego"
+  },
+  {
+    "id": 1921,
+    "city": "Norfolk"
+  },
+  {
+    "id": 1855,
+    "city": "College Station"
+  },
+  {
+    "id": 1526,
+    "city": "Portland"
+  },
+  {
+    "id": 3718,
+    "city": "Hagerstown"
+  },
+  {
+    "id": 1691,
+    "city": "Lexington"
+  },
+  {
+    "id": 3562,
+    "city": "Berkeley"
+  },
+  {
+    "id": 2646,
+    "city": "Enumclaw"
+  },
+  {
+    "id": 1715,
+    "city": "San Luis Obispo"
+  },
+  {
+    "id": 3518,
+    "city": "Leander"
+  },
+  {
+    "id": 3488,
+    "city": "Saginaw"
+  },
+  {
+    "id": 3574,
+    "city": "Alpine"
+  },
+  {
+    "id": 2887,
+    "city": "Medford"
+  },
+  {
+    "id": 3681,
+    "city": "Downers Grove"
+  },
+  {
+    "id": 2760,
+    "city": "Lihue"
+  },
+  {
+    "id": 1873,
+    "city": "Norwalk"
+  },
+  {
+    "id": 3169,
+    "city": "Redlands"
+  },
+  {
+    "id": 1992,
+    "city": "Pune"
+  },
+  {
+    "id": 2484,
+    "city": ""
+  },
+  {
+    "id": 2694,
+    "city": "Quincy"
+  },
+  {
+    "id": 2807,
+    "city": "Vienna"
+  },
+  {
+    "id": 2548,
+    "city": ""
+  },
+  {
+    "id": 3429,
+    "city": "Naples"
+  },
+  {
+    "id": 3265,
+    "city": "Juneau"
+  },
+  {
+    "id": 2770,
+    "city": "Dayton"
+  },
+  {
+    "id": 2423,
+    "city": "Beaverton"
+  },
+  {
+    "id": 3089,
+    "city": "Pasadena"
+  },
+  {
+    "id": 2020,
+    "city": "Milwaukee"
+  },
+  {
+    "id": 1980,
+    "city": "Wichita"
+  },
+  {
+    "id": 2919,
+    "city": "Fresno"
+  },
+  {
+    "id": 3773,
+    "city": "Austin"
+  },
+  {
+    "id": 2645,
+    "city": "Tacoma"
+  },
+  {
+    "id": 3242,
+    "city": "Denver"
+  },
+  {
+    "id": 2882,
+    "city": "Portland"
+  },
+  {
+    "id": 2048,
+    "city": "Richardson"
+  },
+  {
+    "id": 3196,
+    "city": "Tucson"
+  },
+  {
+    "id": 3680,
+    "city": "Bremen"
+  },
+  {
+    "id": 3702,
+    "city": "OrhanlÄ±"
+  },
+  {
+    "id": 3117,
+    "city": "Spokane"
+  },
+  {
+    "id": 3719,
+    "city": "Sunnyvale"
+  },
+  {
+    "id": 3713,
+    "city": "Breckenridge"
+  },
+  {
+    "id": 3692,
+    "city": "Plymouth"
+  },
+  {
+    "id": 2697,
+    "city": "Mountain View"
+  },
+  {
+    "id": 3222,
+    "city": "Houston"
+  },
+  {
+    "id": 3030,
+    "city": "Charlotte Amalie West"
+  },
+  {
+    "id": 3747,
+    "city": "Lexington"
+  },
+  {
+    "id": 3476,
+    "city": "Margao"
+  },
+  {
+    "id": 2803,
+    "city": "Koyukuk-Middle Yukon"
+  },
+  {
+    "id": 3310,
+    "city": "Huaraz"
+  },
+  {
+    "id": 3811,
+    "city": "Khar Danda Koliwada"
+  },
+  {
+    "id": 3733,
+    "city": "Maynard"
+  },
+  {
+    "id": 2346,
+    "city": "Baton Rouge"
+  },
+  {
+    "id": 2971,
+    "city": "Fredericksburg"
+  },
+  {
+    "id": 285,
+    "city": "Fremont"
+  },
+  {
+    "id": 3071,
+    "city": "Knoxville"
+  },
+  {
+    "id": 2935,
+    "city": "Roanoke"
+  },
+  {
+    "id": 3439,
+    "city": "Cranford"
+  },
+  {
+    "id": 3199,
+    "city": "Claremont"
+  },
+  {
+    "id": 3312,
+    "city": "Honolulu"
+  },
+  {
+    "id": 1279,
+    "city": "Bakersfield"
+  },
+  {
+    "id": 3087,
+    "city": "Katy"
+  },
+  {
+    "id": 3276,
+    "city": "Lubbock"
+  },
+  {
+    "id": 3225,
+    "city": "Simi Valley"
+  },
+  {
+    "id": 2546,
+    "city": "Chicago"
+  },
+  {
+    "id": 3652,
+    "city": "North Dartmouth"
+  },
+  {
+    "id": 3338,
+    "city": "Juneau"
+  },
+  {
+    "id": 3725,
+    "city": "Ogden"
+  },
+  {
+    "id": 2761,
+    "city": "Santa Barbara"
+  },
+  {
+    "id": 3699,
+    "city": ""
+  },
+  {
+    "id": 3451,
+    "city": "Spring"
+  },
+  {
+    "id": 2649,
+    "city": "Chicago"
+  },
+  {
+    "id": 3495,
+    "city": "Seattle"
+  },
+  {
+    "id": 3635,
+    "city": "Shreveport"
+  },
+  {
+    "id": 3085,
+    "city": "San Diego"
+  },
+  {
+    "id": 3726,
+    "city": "Salt Lake City"
+  },
+  {
+    "id": 3527,
+    "city": "Catonsville"
+  },
+  {
+    "id": 3813,
+    "city": "Conroe"
+  },
+  {
+    "id": 3436,
+    "city": "Armonk"
+  },
+  {
+    "id": 3012,
+    "city": "Alpharetta"
+  },
+  {
+    "id": 3498,
+    "city": "Bowie"
+  },
+  {
+    "id": 2944,
+    "city": "Helsinki"
+  },
+  {
+    "id": 3461,
+    "city": "Groton"
+  },
+  {
+    "id": 2674,
+    "city": "Pasadena"
+  },
+  {
+    "id": 3434,
+    "city": "Stanford"
+  },
+  {
+    "id": 3812,
+    "city": "Annapolis"
+  },
+  {
+    "id": 2401,
+    "city": "Seattle"
+  },
+  {
+    "id": 3650,
+    "city": "Indianapolis"
+  },
+  {
+    "id": 1872,
+    "city": "Salem"
+  },
+  {
+    "id": 3655,
+    "city": "Cranberry Township"
+  },
+  {
+    "id": 3446,
+    "city": "Roy"
+  },
+  {
+    "id": 3467,
+    "city": "Dublin"
+  },
+  {
+    "id": 3043,
+    "city": "Kirksville"
+  },
+  {
+    "id": 3462,
+    "city": "Houston"
+  },
+  {
+    "id": 3581,
+    "city": "Marina"
+  },
+  {
+    "id": 2858,
+    "city": "San Diego"
+  },
+  {
+    "id": 1424,
+    "city": "North Vancouver"
+  },
+  {
+    "id": 1245,
+    "city": "Vero Beach"
+  },
+  {
+    "id": 1052,
+    "city": "Burbank"
+  },
+  {
+    "id": 3261,
+    "city": "Palm Desert"
+  },
+  {
+    "id": 1216,
+    "city": "Garland"
+  },
+  {
+    "id": 3786,
+    "city": "Phoenix"
+  },
+  {
+    "id": 951,
+    "city": "La Crosse"
+  },
+  {
+    "id": 3615,
+    "city": "Brandon"
+  },
+  {
+    "id": 1885,
+    "city": "Paramus"
+  },
+  {
+    "id": 1377,
+    "city": "Edmonton"
+  },
+  {
+    "id": 3700,
+    "city": "Atlanta"
+  },
+  {
+    "id": 1460,
+    "city": "Espoo"
+  },
+  {
+    "id": 3256,
+    "city": "Dearborn"
+  },
+  {
+    "id": 3628,
+    "city": "Carcavelos"
+  },
+  {
+    "id": 3466,
+    "city": "Pueblo"
+  },
+  {
+    "id": 3775,
+    "city": "Seattle"
+  },
+  {
+    "id": 2680,
+    "city": ""
+  },
+  {
+    "id": 748,
+    "city": "Kawasaki"
+  },
+  {
+    "id": 3760,
+    "city": "Fremont"
+  },
+  {
+    "id": 3353,
+    "city": "Salt Lake City"
+  },
+  {
+    "id": 3771,
+    "city": "Oslo"
+  },
+  {
+    "id": 3797,
+    "city": "London"
+  },
+  {
+    "id": 3710,
+    "city": "Westcliffe"
+  },
+  {
+    "id": 3168,
+    "city": "Tampa"
+  },
+  {
+    "id": 2058,
+    "city": "Pasadena"
+  },
+  {
+    "id": 3125,
+    "city": "Pleasanton"
+  },
+  {
+    "id": 2303,
+    "city": "Charleston"
+  },
+  {
+    "id": 3810,
+    "city": "Larkspur"
+  },
+  {
+    "id": 3629,
+    "city": "Brooklyn"
+  },
+  {
+    "id": 2768,
+    "city": "Ojai"
+  },
+  {
+    "id": 3714,
+    "city": "Santee"
+  },
+  {
+    "id": 3490,
+    "city": "San Juan Antiguo"
+  },
+  {
+    "id": 2332,
+    "city": "Lincoln"
+  },
+  {
+    "id": 3599,
+    "city": "CÃ¡ceres"
+  },
+  {
+    "id": 3802,
+    "city": "Sunnyvale"
+  },
+  {
+    "id": 3372,
+    "city": "Alameda"
+  },
+  {
+    "id": 3740,
+    "city": "Zhulunli"
+  },
+  {
+    "id": 3339,
+    "city": "Singapore"
+  },
+  {
+    "id": 3782,
+    "city": "Sunnyvale"
+  },
+  {
+    "id": 3742,
+    "city": "Natick"
+  },
+  {
+    "id": 1909,
+    "city": "Raleigh"
+  },
+  {
+    "id": 3171,
+    "city": "Odenton"
+  },
+  {
+    "id": 2217,
+    "city": "Belmont"
+  },
+  {
+    "id": 3639,
+    "city": "Houston"
+  },
+  {
+    "id": 2856,
+    "city": "Champaign"
+  },
+  {
+    "id": 3727,
+    "city": "Galveston"
+  },
+  {
+    "id": 2535,
+    "city": "Scottsdale"
+  },
+  {
+    "id": 3783,
+    "city": "Mc Lean"
+  },
+  {
+    "id": 3638,
+    "city": "Scottsdale"
+  },
+  {
+    "id": 3540,
+    "city": "Troy"
+  },
+  {
+    "id": 2378,
+    "city": "Concord"
+  },
+  {
+    "id": 3389,
+    "city": "Sioux Falls"
+  },
+  {
+    "id": 2787,
+    "city": "Saint Louis"
+  },
+  {
+    "id": 2809,
+    "city": "Clearwater Beach"
+  },
+  {
+    "id": 2552,
+    "city": "Cedar Park"
+  },
+  {
+    "id": 2168,
+    "city": "Colorado Springs"
+  },
+  {
+    "id": 3642,
+    "city": "Victoria"
+  },
+  {
+    "id": 2075,
+    "city": "Walnut Creek"
+  },
+  {
+    "id": 3325,
+    "city": "Des Moines"
+  },
+  {
+    "id": 1826,
+    "city": "Mount Berry"
+  },
+  {
+    "id": 2859,
+    "city": "San Diego"
+  },
+  {
+    "id": 2366,
+    "city": "Cleveland"
+  },
+  {
+    "id": 2073,
+    "city": "Tupelo"
+  },
+  {
+    "id": 3789,
+    "city": "Salt Lake City"
+  },
+  {
+    "id": 3147,
+    "city": "Seattle"
+  },
+  {
+    "id": 2231,
+    "city": "Palo Alto"
+  },
+  {
+    "id": 3602,
+    "city": "Toronto"
+  },
+  {
+    "id": 3603,
+    "city": "JyvÃ¤skylÃ¤"
+  },
+  {
+    "id": 1428,
+    "city": "Marion"
+  },
+  {
+    "id": 2571,
+    "city": "Aberdeen Proving Ground"
+  },
+  {
+    "id": 791,
+    "city": "Hobart"
+  },
+  {
+    "id": 2418,
+    "city": "Santa Barbara"
+  },
+  {
+    "id": 3024,
+    "city": "Eastham"
+  },
+  {
+    "id": 377,
+    "city": "Venice"
+  },
+  {
+    "id": 3694,
+    "city": "Silver Spring"
+  },
+  {
+    "id": 375,
+    "city": "Venice"
+  },
+  {
+    "id": 3332,
+    "city": "Fort Valley"
+  },
+  {
+    "id": 384,
+    "city": "London"
+  },
+  {
+    "id": 229,
+    "city": null
+  },
+  {
+    "id": 620,
+    "city": null
+  }
+]
