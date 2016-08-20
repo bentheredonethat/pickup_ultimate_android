@@ -2,20 +2,24 @@ package com.example.benjaminlevinsky.pickupultimateforandroid;
 
 import android.graphics.Rect;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
-import android.widget.CheckBox;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -23,6 +27,7 @@ import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.Marker;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.google.maps.android.clustering.Cluster;
@@ -40,38 +45,36 @@ public class MainActivity extends AppCompatActivity
     @Nullable
     private List<Game> games;
 
-    GoogleMap myMap;
+    @NonNull
+    private GoogleMap myMap;
 
+    @NonNull
+    private ClusterManager<Game> clusterManager;
 
-
-   @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
-
-        setSupportActionBar(toolbar);
         setUpNavView();
 
+
+
         games = new GsonBuilder().create().fromJson(loadJSONFromAsset(), new TypeToken<ArrayList<Game>>(){}.getType());
-
-
 
         MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
        }
 
+
     private void setUpClusterer() {
-        // Declare a variable for the cluster manager.
-        ClusterManager<Game> clusterManager;
 
         // Position the map.
-        getMap().moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(37.0902, 95.7129), 10));
+        getMap().moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(37.774929, -122.419416), 10));
 
         // Initialize the manager with the context and the map.
         // (Activity extends context, so we can pass 'this' in the constructor.)
         clusterManager = new ClusterManager<>(this, getMap());
+
 
         // Point the map's listeners at the listeners implemented by the cluster
         // manager.
@@ -87,7 +90,7 @@ public class MainActivity extends AppCompatActivity
         });
 
         // Add cluster items (markers) to the cluster manager.
-        populateMapWithGames(clusterManager);
+        populateMapWithGames();
     }
 
     private void setUpCustomMarker(Game game){
@@ -123,8 +126,44 @@ public class MainActivity extends AppCompatActivity
 
     private void setUpNavView() {
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        assert navigationView != null;
-        navigationView.setNavigationItemSelectedListener(this);
+        if (navigationView != null) {
+            navigationView.setNavigationItemSelectedListener(this);
+        }
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
+
+
+        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close) {
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                // Code here will be triggered once the drawer closes as we dont want anything to happen so we leave this blank
+                super.onDrawerClosed(drawerView);
+            }
+
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                // Code here will be triggered once the drawer open as we dont want anything to happen so we leave this blank
+
+                super.onDrawerOpened(drawerView);
+            }
+        };
+
+        //Setting the actionbarToggle to drawer layout
+        if (drawerLayout != null) {
+            drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        }
+
+        //calling sync state is necessay or else your hamburger icon wont show up
+        actionBarDrawerToggle.syncState();
+
+
+
     }
 
     @Override
@@ -166,17 +205,15 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.games) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.cities) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.faq) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.about) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.go_to_website) {
 
         }
 
@@ -192,22 +229,22 @@ public class MainActivity extends AppCompatActivity
     }
 
     // populate map and clustermanager with markers from game data
-    private void populateMapWithGames(ClusterManager clusterManager){
+    private void populateMapWithGames(){
         if (games != null) {
-            for (int i = 0, gamesSize = games.size(); i < gamesSize; i++)
+            for (int i = 0, gamesSize = games.size(); i < gamesSize; i++){
                 clusterManager.addItem(games.get(i));
+
+            }
         }
     }
 
-    @Override
+
+     @Override
     public void onMapReady(GoogleMap googleMap) {
         myMap = googleMap;
         myMap.getUiSettings().setCompassEnabled(true);
         myMap.getUiSettings().setZoomControlsEnabled(true);
         myMap.setMyLocationEnabled(true);
-        myMap.getUiSettings().setMyLocationButtonEnabled(((CheckBox)findViewById(R.id.mylocationbutton_toggle)).isChecked());
-
-
 
         setUpClusterer();
     }
